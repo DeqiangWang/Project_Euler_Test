@@ -21,5 +21,5 @@ def array_evsum(self):
     return even_arr_sum
     
     
-fibnum = list(fib_seq(35))
+fibnum = list(fib_seq(4000000))
 print(array_evsum(fibnum))
