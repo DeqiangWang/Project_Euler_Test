@@ -37,5 +37,5 @@ def primeFactors(num):
     return primelist
 
 
-print(primeFactors(600851475143))
+print(max(primeFactors(600851475143)))
 
