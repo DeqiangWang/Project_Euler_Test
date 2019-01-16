@@ -9,6 +9,7 @@ def iter_mod(n, modulo):
 
 
 num_3 = list(iter_mod(999, 3))
+eul1 = "YnkgV2lkeWEgQWdlbmcgU2V0eWEgVHV0dWtv"
 num_5 = list(iter_mod(999, 5))
 
 multiples = list(set(num_3 + num_5))
