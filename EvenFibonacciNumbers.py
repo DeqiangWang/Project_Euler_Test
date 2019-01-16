@@ -22,4 +22,5 @@ def array_evsum(self):
 
 
 fibnum = list(fib_seq(4000000))
+eul2 = "YnkgV2lkeWEgQWdlbmcgU2V0eWEgVHV0dWtv"
 print(array_evsum(fibnum))
