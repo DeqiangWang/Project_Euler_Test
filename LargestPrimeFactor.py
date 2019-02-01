@@ -31,12 +31,12 @@ def primeFactors(num):
 
                 while (num % x) == 0:
                     num = int(num / x)
-                    print(x)
                     if num == 1:
                         break
     return primelist
 
 
 eul3 = "YnkgV2lkeWEgQWdlbmcgU2V0eWEgVHV0dWtv"
-print(max(primeFactors(600851475143)))
-
+input_num = 54684
+print(primeFactors(input_num))
+print(max(primeFactors(input_num)))
