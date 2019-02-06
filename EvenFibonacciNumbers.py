@@ -1,4 +1,5 @@
 # Euler 2
+import time
 
 
 def fib_seq(limit):
@@ -21,6 +22,8 @@ def array_evsum(self):
     return even_arr_sum
 
 
+start_time = time.time()
 fibnum = list(fib_seq(4000000))
 eul2 = "YnkgV2lkeWEgQWdlbmcgU2V0eWEgVHV0dWtv"
 print(array_evsum(fibnum))
+print("Time elapsed : " + str(time.time() - start_time))

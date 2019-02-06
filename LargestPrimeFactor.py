@@ -1,5 +1,5 @@
 # Euler 3
-
+import time
 
 def isprime(n):
     if (n == 2) or (n == 3):
@@ -37,6 +37,8 @@ def primeFactors(num):
 
 
 eul3 = "YnkgV2lkeWEgQWdlbmcgU2V0eWEgVHV0dWtv"
+start_time = time.time()
 input_num = 54684
 print(primeFactors(input_num))
 print(max(primeFactors(input_num)))
+print("Time elapsed : " + str(time.time() - start_time))

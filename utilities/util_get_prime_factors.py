@@ -1,5 +1,5 @@
 # Utility 2
-from utililites.util_get_prime import isprime
+from utilities.util_get_prime import isprime
 import numpy as np
 
 
@@ -11,6 +11,8 @@ def get_prime_factors(num):
             if (num % index) == 0:
                 primefactor.append(index)
                 num = int(num/index)
+                if num == 1:
+                    return primefactor
                 while (num % index) == 0:
                     primefactor.append(index)
                     num = int(num/index)
