@@ -1,6 +1,6 @@
 # Utility 1
 
-
+# To check if a number is prime number
 def isprime(n):
     if (n == 2) or (n == 3):
         return True
@@ -13,9 +13,9 @@ def isprime(n):
     return True
 
 
+# To return all the prime numbers between start and stop
 def getprime(start, stop):
     primelist = []
-    print(isprime(start))
     # checking if starting number is prime number with odd prime gap
     if start == 2:
         primelist.append(2)
@@ -43,7 +43,6 @@ def getprime(start, stop):
             for m in range(3, stop, 2):
                 if isprime(m):
                     primelist.append(m)
-
 
     return primelist
 
