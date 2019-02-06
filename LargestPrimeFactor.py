@@ -2,7 +2,7 @@
 
 
 def isprime(n):
-    if (n == 2) | (n == 3):
+    if (n == 2) or (n == 3):
         return True
     else:
         for x in range(3, n, 2):

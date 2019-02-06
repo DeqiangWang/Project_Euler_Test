@@ -2,7 +2,7 @@
 
 
 def fib_seq(limit):
-    x = [1, 2];
+    x = [1, 2]
     yield 1
     yield 2
     while x[-1] < limit:
