@@ -6,7 +6,7 @@ import numpy as np
 
 
 def main():
-    startnum = 20
+    startnum = 23
     subject_seq = np.flip(get_count(startnum))
     subject_num = startnum
     subject_seq = np.delete(subject_seq, 0, None)
